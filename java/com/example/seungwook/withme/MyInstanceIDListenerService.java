@@ -1,0 +1,18 @@
+package com.example.seungwook.withme;
+
+import android.content.Intent;
+
+import com.google.android.gms.iid.InstanceIDListenerService;
+
+/**
+ * Created by seungwook on 2015. 12. 2..
+ */
+public class MyInstanceIDListenerService extends InstanceIDListenerService{
+    private static final String TAG = "MyInstanceIDLS";
+
+    @Override
+    public void onTokenRefresh() {
+        Intent intent = new Intent(this, RegistrationIntentService.class);
+        startService(intent);
+    }
+}

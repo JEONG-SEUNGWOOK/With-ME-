@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 대화방 분류 -->
+    <string-array name="classification">
+        <item>분류</item>
+        <item>콜밴</item>
+        <item>공모전</item>
+        <item>스터디</item>
+        <item>기타</item>
+    </string-array>
+
+    <!-- 대화방 최대참여인원 -->
+    <string-array name="headcount">
+        <item>최대참여인원</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+</resources>
